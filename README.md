@@ -58,8 +58,6 @@ nothing in the notebook depends on a specific release.
 ## Structure
 
 ```
-├── DSM050_Final_Report_V1.docx     # the report, for editing and PDF export
-├── DSM050_Final_Report_V1.pdf      # submitted PDF
 ├── DSM050Final_Coursework_V1.ipynb # notebook: same commentary plus all the code
 ├── data/
 │   ├── raw/README.md               # download instructions
