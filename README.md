@@ -81,17 +81,3 @@ nothing in the notebook depends on a specific release.
 - PCA over nine standardised tendency features, with silhouette validation used to test, and
   reject, the existence of stylistic archetypes
 
-## Before submitting
-
-- [ ] Put the season CSV next to the notebook, or at `data/raw/pbp-2025.csv`, before running
-- [ ] Commit `data/processed/pbp_2025_analysis_subset.csv.gz` - the brief requires a copy of the
-      data in the repository
-- [ ] Run the word count cell in **classic Jupyter Notebook 6** - the JS uses the `Jupyter.notebook`
-      API, which neither JupyterLab nor Notebook 7 provides, so it fails silently on both
-- [ ] State the word count at the end of the report (5 marks lost if omitted) - currently 3,268
-- [ ] Check the Appendix A dates against your own session history before submitting
-- [ ] Insert the GitHub repository link in the title cell (still reads `[insert your GitHub link here]`)
-- [ ] Add the missing space after each number in the References list (`1.Baldwin` -> `1. Baldwin`)
-- [ ] Edit `DSM050_Final_Report_V1.docx` in Word, then export to PDF from Word (not LibreOffice)
-- [ ] Re-check the word count in Word after editing and update the stated figure
-- [ ] Confirm every figure rendered and none is split across a page break
